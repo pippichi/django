@@ -1,0 +1,24 @@
+{% extends 'home.html' %}
+
+#reference static source
+{% load static %}
+
+{% block content %}
+    <h3>give me power!</h3>
+{% endblock %}
+
+{% block header %}
+    {{ block.super }}
+    <h3>dont be shy!</h3>
+{% endblock %}
+
+{% block footer %}
+    {% include 'footer.html' %}
+{% endblock %}
+
+{% block ext_css %}
+{#    <link rel="stylesheet" href="/static/css/home_mine.css">#}
+
+    <link rel="stylesheet" href="{% static 'css/home_mine.css' %}">
+
+{% endblock %}

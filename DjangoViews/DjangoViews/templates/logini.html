@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+</head>
+<body>
+<form action="{% url 'second:do_login' %}" method="post">
+    <span>user:</span><input type="text" placeholder="please input your user name!" name="uname">
+    <br>
+    <button>log in</button>
+</form>
+</body>
+</html>

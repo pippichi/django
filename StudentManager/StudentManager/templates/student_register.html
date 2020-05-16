@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>StudentRegister</title>
+</head>
+<body>
+
+<form action="{% url 'second:register' %}" method="post">
+    <span>user:</span><input type="text" name="username" placeholder="input your username here">
+    <br>
+    <span>password:</span><input type="text" name="password" placeholder="put your password here">
+    <br>
+    <button>submit</button>
+</form>
+
+</body>
+</html>

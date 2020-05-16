@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="ModelToSQL@localhost" uuid="09d85a6d-5c20-413b-9db0-c443a1243d80">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/ModelToSQL</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Django default" uuid="efc78b28-1b2e-4ac1-84d8-5b3a97836ade">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/ModelToSQL/settings.py</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1:3306/ModelToSQL</jdbc-url>
+    </data-source>
+  </component>
+</project>

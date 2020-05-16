@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PersonsList</title>
+</head>
+<body>
+<h1>Person List</h1>
+<ul>
+    {% for person in persons %}
+        <li>"name: "{{person.p_name }} "age: "{{ person.p_age }}</li>
+        <hr>
+    {% endfor %}
+
+</ul>
+<input type="button" value="animals" onclick="jump()">
+</body>
+<script>
+    function jump(){
+        window.location.href = "http://192.168.253.129:8000/two/get_users"
+    }
+</script>
+</html>

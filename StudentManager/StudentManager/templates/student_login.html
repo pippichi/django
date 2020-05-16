@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>StudentLogin</title>
+</head>
+<body>
+
+<form action="{% url 'second:login' %}" method="post">
+
+    {% csrf_token %}
+
+    <span>username</span><input type="text" name="username" placeholder="input your name">
+    <br>
+    <span>password</span><input type="text" name="password" placeholder="input your password">
+    <button>submit</button>
+</form>
+
+</body>
+</html>

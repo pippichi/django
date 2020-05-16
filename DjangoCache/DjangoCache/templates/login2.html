@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+
+    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.5.0/jquery.js"></script>
+    <script type="text/javascript" src="{% static 'js/login.js' %}"></script>
+
+</head>
+<body>
+<form action="{% url 'second:login' %}" method="post">
+    <span>user:</span><input type="text" name="username" placeholder="s">
+    <br>
+    <span>verify code:</span><input type="text" name="verify_code" placeholder="input verify code">
+    <br>
+    <img src="{% url 'second:get_code' %}">
+
+    <br>
+
+    <button>submit</button>
+</form>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UsersList</title>
+</head>
+<body>
+<h3>UserList</h3>
+<h3>UserList</h3>
+<hr>
+<ul>
+    {% for user in users %}
+        <li>{{ user.u_name }}</li>
+    {% empty %}
+        <h1>there is no student whos name is prefix with "H"</h1>
+    {% endfor %}
+</ul>
+
+<hr>
+<ul>
+    {% for user in users %}
+        <li>{{ forloop.counter }}:{{ user.get_name }}</li>
+    {% endfor %}
+
+</ul>
+<hr>
+<ul>
+    {% for user in users %}
+        {% if forloop.first %}
+            <li style="color: red">{{ user.u_name }}</li>
+        {% elif forloop.last %}
+            <li style="color: green">{{ user.u_name }}</li>
+        {% else %}
+            <li>{{ user.u_name }}</li>
+        {% endif %}
+
+    {% endfor %}
+
+</ul>
+<hr>
+<ul>
+    {% for user in users %}
+        <li>{{ user.get_name }}</li>
+    {% endfor %}
+</ul>
+<hr>
+<h3>{{ users.0.u_name }}</h3>
+<hr>
+<h3>{{ user_dict.hobby }}</h3>
+<h3>{{ user_dict.hobby|upper }}</h3>
+<h3>{{ user_dict.hobby|lower }}</h3>
+<hr>
+
+{#you cant find me!#}
+{% comment %}
+<ul>
+    <li></li>
+</ul>
+{% endcomment %}
+
+<h4>{{ count }}</h4>
+<h4>{% widthratio count 1 5 %}</h4>
+<h4>{% widthratio count 5 1 %}</h4>
+
+<hr>
+<ul>
+    {% for user in users %}
+        {% if forloop.counter|divisibleby:2 %}
+            <li style="color: red">{{ user.u_name }}</li>
+            {% else %}
+            <li style="color: green">{{ user.u_name }}</li>
+        {% endif %}
+    {% endfor %}
+</ul>
+<hr>
+<ul>
+    {% for user in users %}
+        {% ifequal forloop.counter 2 %}
+
+            <li style="color: green">{{ user.u_name }}</li>
+        {% endifequal %}
+    {% endfor %}
+</ul>
+<hr>
+<h3>{{ users.0.u_password }}</h3>
+<h3>{{ users.0.u_password|add:2 }}</h3>
+
+<hr>
+{#<h3>{{ code|safe }}</h3>#}
+{% autoescape on %}
+    {{ code }}
+{% endautoescape %}
+</body>
+</html>

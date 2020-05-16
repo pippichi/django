@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>files upload</title>
+</head>
+<body>
+<form action="{% url 'second:upload_file' %}" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+
+    <span>file: </span>
+    <input type="file" name="icon">
+    <br>
+    <input type="submit" value="upload">
+
+</form>
+</body>
+</html>

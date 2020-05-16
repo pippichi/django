@@ -1,0 +1,11 @@
+<form action="{% url 'second:image_field' %}" method="post" enctype="multipart/form-data">
+
+    {% csrf_token %}
+
+    <span>username:</span><input type="text" name="username" placeholder="input your name here">
+    <br>
+    <span>portrait:</span><input type="file" name="icon">
+    <br>
+    <button>submit</button>
+
+</form>

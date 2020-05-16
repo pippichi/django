@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BookList</title>
+</head>
+<body>
+<ul>
+    {% for object in object_list %}
+        <li><a href="{% url 'cbv:single' pk=object.id %}">{{ object.b_name }}</a></li>
+    {% endfor %}
+
+</ul>
+</body>
+</html>

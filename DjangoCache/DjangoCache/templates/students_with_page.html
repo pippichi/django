@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>StudentWithPage</title>
+
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/4.4.1/css/bootstrap.css" rel="stylesheet">
+
+    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.5.0/jquery.js"></script>
+
+    <script type="text/javascript" src="https://cdn.bootcss.com/twitter-bootstrap/4.4.1/js/bootstrap.js"></script>
+</head>
+<body>
+<ul>
+    {% for student in page_object.object_list %}
+        <li>{{ student.s_name }}</li>
+    {% endfor %}
+
+</ul>
+
+{#<ul>#}
+{#    {% for foo in page_range %}#}
+{#        <li><a href="{% url 'second:get_student_with_page' %}?page={{ foo }}">{{ foo }}</a></li>#}
+{##}
+{#    {% endfor %}#}
+{##}
+{#</ul>#}
+
+<nav aria-label="Page navigation">
+    <ul class="pagination pagination-lg">
+        {% if page_object.has_previous %}
+            <li class="disabled">
+                <a href="{% url 'second:get_student_with_page' %}?page={{ page_object.previous_page_number }}"
+                   aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+        {% else %}
+            <li>
+                <a href="#"
+                   aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+        {% endif %}
+
+        {% for foo in page_range %}
+            {% if foo < head_page or foo > tail_page %}
+                {% ifequal foo page_object.number %}
+                    <li class="active"><a href="{% url 'second:get_student_with_page' %}?page={{ foo }}">{{ foo }}</a>
+                    </li>
+
+                {% else %}
+                    <li><a href="{% url 'second:get_student_with_page' %}?page={{ foo }}">{{ foo }}</a></li>
+                {% endifequal %}
+            {% else %}
+                {% ifequal foo page_object.number %}
+                    <li class="active"><a href="{% url 'second:get_student_with_page' %}?page={{ foo }}">{{ foo }}</a>
+                    </li>
+                {% else %}
+                    <li>.</li>
+                {% endifequal %}
+
+            {% endif %}
+        {% endfor %}
+
+        {% if page_object.has_next %}
+            <li>
+                <a href="{% url 'second:get_student_with_page' %}?page={{ page_object.next_page_number }}"
+                   aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        {% else %}
+            <li class="disabled">
+                <a href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        {% endif %}
+
+    </ul>
+</nav>
+</body>
+</html>
