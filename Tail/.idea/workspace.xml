@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="48f08853-03e0-4736-9131-cf2fdd3a7a83" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../ModelToSQL/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ModelToSQL/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudentManager/StudentManager/App/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../StudentManager/StudentManager/App/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tail/App/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tail/App/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tail/App/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tail/App/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tail/Two/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tail/Two/urls.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1e4AEW5wW8Sb4m54VZpdDxU7Yjm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="48f08853-03e0-4736-9131-cf2fdd3a7a83" name="Default Changelist" comment="" />
+      <created>1593570379396</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593570379396</updated>
+      <workItem from="1593570382248" duration="57000" />
+      <workItem from="1593573704320" duration="10000" />
+    </task>
+    <servers />
+  </component>
+</project>

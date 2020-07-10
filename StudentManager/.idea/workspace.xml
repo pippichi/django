@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de479e29-70b7-40f4-91ac-2e9ddaa775a3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b98dd245-166e-4319-bf91-a59b373b0fd3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../ModelToSQL/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ModelToSQL/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentManager/StudentManager/App/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../StudentManager/StudentManager/App/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentManager/App/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/StudentManager/App/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tail/Tail/App/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Tail/Tail/App/auth.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tail/Tail/App/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Tail/Tail/App/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tail/Tail/Two/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Tail/Tail/Two/urls.py" afterDir="false" />
@@ -17,7 +16,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1ahS41XEFl6z1jt4DVvKeN3H9cZ" />
+  <component name="ProjectId" id="1deiwGHaRAArKI8mzxee1uCnVUb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,25 +26,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ModelToSQL" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="de479e29-70b7-40f4-91ac-2e9ddaa775a3" name="Default Changelist" comment="" />
-      <created>1587186138037</created>
+      <changelist id="b98dd245-166e-4319-bf91-a59b373b0fd3" name="Default Changelist" comment="" />
+      <created>1592792195150</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1587186138037</updated>
-      <workItem from="1587186140008" duration="21000" />
-      <workItem from="1587970146357" duration="134000" />
-      <workItem from="1588250406142" duration="73000" />
-      <workItem from="1593574367478" duration="40000" />
-      <workItem from="1593574425055" duration="2000" />
-      <workItem from="1593762055395" duration="75000" />
-      <workItem from="1593763275541" duration="615000" />
+      <updated>1592792195150</updated>
+      <workItem from="1592792196721" duration="28000" />
+      <workItem from="1593569882761" duration="55000" />
     </task>
     <servers />
   </component>
@@ -53,10 +47,9 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="524" y="232" width="424" height="491" key="FileChooserDialogImpl" timestamp="1593762128393">
-      <screen x="0" y="27" width="1918" height="899" />
+    <state x="261" y="230" width="424" height="491" key="FileChooserDialogImpl" timestamp="1593569935628">
+      <screen x="0" y="27" width="956" height="890" />
     </state>
-    <state x="524" y="232" width="424" height="491" key="FileChooserDialogImpl/0.27.1918.899@0.27.1918.899" timestamp="1593762128393" />
-    <state x="261" y="230" width="424" height="491" key="FileChooserDialogImpl/0.27.956.890@0.27.956.890" timestamp="1588250478162" />
+    <state x="261" y="230" width="424" height="491" key="FileChooserDialogImpl/0.27.956.890@0.27.956.890" timestamp="1593569935628" />
   </component>
 </project>

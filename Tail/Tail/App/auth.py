@@ -26,6 +26,6 @@ class UserAuth(BaseAuthentication):
 
                 user = UserModel.objects.get(pk=u_id)
 
-                return user , token
+                return user, token
             except:
                 return

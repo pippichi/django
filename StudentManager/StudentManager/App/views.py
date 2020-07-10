@@ -83,7 +83,7 @@ def student_mine(request):
 
     try:
         student = Student.objects.get(s_token=token)
-    except Exception as e:
+    except Exception:
         return redirect(reverse("second:login"))
 
     # return HttpResponse(student.s_name)
